@@ -12,7 +12,7 @@ Link to deployed site to go here
 ![GitHub top language](https://img.shields.io/github/languages/top/AwsSG/empowered?color=green)
 ![GitHub forks](https://img.shields.io/github/forks/AwsSG/empowered?style=social)
 
-Add the w3c validator shields badge here
+Add the w3c validator shields badge here.
 
 ## CONTENTS
 
