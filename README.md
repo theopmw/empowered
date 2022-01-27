@@ -40,6 +40,9 @@ Add the w3c validator shields badge here
 
 * [Testing](#Testing)
   * [W3C Validator](#W3C-Validator)
+  * [PEP8online Python Validator](PEP8online-Python-Validator)
+  * [Responsiveness](#Responsiveness)
+  * [Compatibility](#Compatibility)
   * [Solved Bugs](#Solved-Bugs)
   * [Known Bugs](#Known-Bugs)
   * [Testing User Stories](#Testing-User-Stories)
@@ -50,6 +53,7 @@ Add the w3c validator shields badge here
   * [Code Used](#Code-Used)
   * [Content](#Content)
   * [Media](#Media)
+  * [Collaborators](#Collaborators)
   * [Acknowledgments](#Acknowledgments)
 
 - - -
@@ -77,8 +81,6 @@ Add the w3c validator shields badge here
 Image of colour scheme to go here (use coolors?)
 
 ### Typography
-
-Google Fonts ?
 
 ### Imagery
 
@@ -112,7 +114,7 @@ We have been mindful during coding to ensure that the website is as accessible f
 
 ### Languages Used
 
-HTML, CSS
+HTML, CSS, Python
 
 ### Frameworks, Libraries & Programs Used
 
@@ -122,8 +124,11 @@ Git - For version control.
 
 Github - To save and store the files for the website.
 
-? Google Fonts - To import the fonts used on the website.
+Materialize - For the framework.
 
+Flask -
+
+Mongo DB -
 ? Font Awesome - For the iconography on the website.
 
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
@@ -178,6 +183,16 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 W3C validator images or links to go here
 
+### PEP8online Python Validator
+
+### Responsiveness
+
+Add in screenshots/gifs of responsiveness.
+
+### Compatibility
+
+Add in screenshots of compatibility.
+
 ### Solved Bugs
 
 ### Known Bugs
@@ -196,9 +211,9 @@ We used Lighthouse within the Chrome Developer Tools to allow us to test the per
 
 ### Full Testing
 
-To fully test my website we performed the following testing using a number of browsers (google chrome,…) and devices (Macbook Pro 14 inch, iPhone 13 pro, …).
+To fully test my website we performed the following testing using a number of browsers (Google Chrome, Safari, Firefox, Brave) and devices (Macbook Pro 14 inch, iPhone 13 pro, …).
 
-We also went through each page using google chrome developer tools to ensure that they responsive on all different screen sizes.
+We also went through each page using Google Chrome developer tools to ensure that they responsive on all different screen sizes.
 
 - - -
 
@@ -209,6 +224,16 @@ We also went through each page using google chrome developer tools to ensure tha
 ### Content
 
 ### Media
+
+### Collaborators
+
+Team 3 of the January Hackathon 2022:
+
+* [Iuliia Konovalova](https://github.com/IuliiaKonovalova)
+* [Aws Sabah Gheni](https://github.com/AwsSG)
+* [Theo Wright](https://github.com/theopmw)
+* [Kera Cudmore](https://github.com/kera-cudmore)
+* [Anna](https://github.com/)
 
 ### Acknowledgments
 
