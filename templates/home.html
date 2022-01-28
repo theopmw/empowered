@@ -1,4 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
-    <h1>Our app name is EMPOWERED</h1>
+<h1>Our app name is EMPOWERED</h1>
+{% for user in users %}
+<p>User: {{ user.username }}</p>
+{% endfor %}
 {% endblock %}
