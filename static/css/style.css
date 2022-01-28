@@ -197,8 +197,8 @@ body.light .dropdown ul {
   margin-bottom: 2em;
 }
 
-.navbar__components--mobile.open-menu {
-  display: none;
+.open-menu {
+  display: block;
 }
 
 
@@ -231,7 +231,7 @@ footer {
 
 
 
-  .navbar__components--mobile.open-menu {
+  /* .navbar__components--mobile.open-menu {
     display: block;
-  }
+  } */
 }
