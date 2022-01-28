@@ -129,6 +129,10 @@ body {
   -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
 }
 
+.dropdown:hover {
+  background-color: var(--clr-primary--100);
+}
+
 .nav__options {
   padding: 1em;
   position: absolute;
@@ -142,6 +146,10 @@ body {
   -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
   -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
   display: none;
+}
+
+.nav__options>*:hover {
+  color: var(--clr-neutral-900)
 }
 
 .nav__options .btn__login {
@@ -180,13 +188,16 @@ body.light .dropdown ul {
 }
 
 .navbar__components--mobile li a {
-  color: var(--clr-neutral-900);
+  color: var(--clr-neutral--300);
   font-weight: 700;
 }
 
 .navbar__components--mobile li:not(:last-child) {
   margin-bottom: 2em;
 }
+
+
+
 
 
 
