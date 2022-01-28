@@ -66,11 +66,11 @@ Add the w3c validator shields badge here - is there a badge for python validator
 
 ### User Stories
 
-#### First Time Visitor Goals
-
-#### Returning Visitor Goals
-
-#### Frequent Visitor Goals
+1. As a user I want to be able to easily find out what the site does.
+2. As a user I want to ensure that my personal information (login details and feelings log) will be kept secure and private.
+3. As a user I want to be able to choose an appropriate emoticon to select as my emotional status for that day.
+4. As a user I would like to be able to add additional notes to my emoticon to allow me to express my state of mind.
+5. As a user I want to be able to view my previous emoticons and notes over a selected time frame to get an overview of my mental health.
 
 - - -
 
@@ -78,7 +78,14 @@ Add the w3c validator shields badge here - is there a badge for python validator
 
 ### Colour Scheme
 
-Image of colour scheme to go here (use coolors?)
+![Colour Scheme for the Website](static/documents/colourscheme.png)
+
+We researched colour theory and colour psychology to find what colour palettes may be beneficial to someone who may be struggling with their mental health. We discovered that light blues are associated with peace, sincerity and gentleness. Darker blues are representative of power, strength and dependability. Greens are associated with growth and have a calming presence.  
+
+We feel that this colour palette has a nice balance between the blues and greens to promote calm and peacefulness on the site. The choice of green also ties in with the use of the colour green in the mental health awareness ribbon.
+
+[Psychology of Color Explained](https://www.masterclass.com/articles/psychology-of-color-explained#4-examples-of-color-psychology)
+ | [Colour Psychology - Green](https://www.verywellmind.com/color-psychology-green-2795817) | [Colour Psychology - Blue](https://www.verywellmind.com/the-color-psychology-of-blue-2795815)
 
 ### Typography
 
@@ -233,7 +240,7 @@ Team 3 of the January Hackathon 2022:
 * [Aws Sabah Gheni](https://github.com/AwsSG)
 * [Theo Wright](https://github.com/theopmw)
 * [Kera Cudmore](https://github.com/kera-cudmore)
-* [Anna](https://github.com/)
+* [Anna](https://github.com/ANNAhabANNA)
 
 ### Acknowledgments
 
