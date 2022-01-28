@@ -1,0 +1,237 @@
+:root {
+  --clr-primary--100: #9adea2;
+  --clr-primary--300: #c2f69b;
+  --clr-primary--500: #80db8b;
+  --clr-neutral--100: #fafafa;
+  --clr-neutral--300: #696969;
+  --clr-neutral-900: #333;
+  --clr-accent--300: #80c0ce;
+  --clr-accent--500: #467292;
+  --ff-primary: sans-serif;
+  --ff-accent: cursive;
+  --br: 0.4em;
+  --br-elements: 0.8em;
+}
+
+
+
+/*------ Global Settings------*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin-left: 0;
+  padding-left: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* ----- Body ----- */
+body {
+  font-family: var(--ff-primary);
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: var(--clr-neutral--100);
+  color: var(--clr-neutral--900);
+  min-height: 100vh;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  background-color: var(--clr-primary--100);
+}
+
+
+/* --- Navbar --- */
+.navbar {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 2em;
+  position: relative;
+}
+
+.navbar__components {
+  display: flex;
+  flex-direction: row;
+  color: var(--clr-neutral--900);
+  align-items: center;
+  font-weight: 700;
+}
+
+.navbar__item:not(:last-child) {
+  margin-right: 4em;
+}
+
+.btn__login {
+  margin-right: 1em;
+}
+
+.navbar__item a {
+  text-transform: uppercase;
+  color: var(--clr-neutral--300);
+}
+
+.navbar__item a:hover {
+  color: var(--clr-neutral--900);
+}
+
+
+/* Dropdown */
+.dropdown {
+  border-radius: var(--br);
+  background-color: var(--clr-primary--300);
+  cursor: pointer;
+  padding: 1em 2.3em 0.9em 2.3em;
+  position: relative;
+  text-transform: uppercase;
+  color: var(--clr-neutral--300);
+  font-weight: 700;
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
+}
+
+.dropdown:hover {
+  background-color: var(--clr-primary--100);
+}
+
+.nav__options {
+  padding: 1em;
+  position: absolute;
+  top: 107%;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  border-radius: var(--br);
+  background-color: var(--clr-primary--300);
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
+  display: none;
+}
+
+.nav__options>*:hover {
+  color: var(--clr-neutral-900)
+}
+
+.nav__options .btn__login {
+  margin-bottom: 1em;
+}
+
+body.light .dropdown ul {
+  background: var(--clr-neutral--300);
+}
+
+.dropdown.open ul {
+  display: block;
+}
+
+.dropdown ul li {
+  margin: 0.6em 1em;
+}
+
+.hamburger__container {
+  display: none;
+}
+
+.navbar__components--mobile {
+  display: none;
+  padding: 2em 1.3em;
+  position: absolute;
+  top: 115%;
+  right: 2em;
+  z-index: 99;
+  border-radius: var(--br);
+  background-color: var(--clr-primary--100);
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
+}
+
+.navbar__components--mobile li a {
+  color: var(--clr-neutral--300);
+  font-weight: 700;
+}
+
+.navbar__components--mobile li:not(:last-child) {
+  margin-bottom: 2em;
+}
+
+.navbar__components--mobile.open-menu {
+  display: none;
+}
+
+
+/* ----- Footer ----- */
+
+footer {
+  width: 100%;
+  background-color: var(--clr-primary--500);
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+
+
+
+/* ----- Media ----- */
+
+@media all and (max-width: 62.5em) {
+
+
+  .navbar__components {
+    display: none;
+  }
+
+  .hamburger__container {
+    display: block;
+  }
+
+
+
+  .navbar__components--mobile.open-menu {
+    display: block;
+  }
+}
