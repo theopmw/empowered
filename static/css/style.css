@@ -4,7 +4,8 @@
   --clr-primary--500: #80db8b;
   --clr-neutral--100: #fafafa;
   --clr-neutral--300: #696969;
-  --clr-neutral-900: #333;
+  --clr-neutral--900: #333;
+  --clr-accent--100: #b3ebf7b6;
   --clr-accent--300: #80c0ce;
   --clr-accent--500: #467292;
   --ff-primary: sans-serif;
@@ -221,28 +222,47 @@ body.light .dropdown ul {
 }
 
 .blog {
-  padding: 2em 0;
+  padding: 2.5em 0;
 }
 
 .blog__heading {
   width: 100%;
   display: flex;
-  padding: 0 2em;
   flex-direction: column;
   align-items: center;
-  background-color: wheat;
+  background-color: var(--clr-accent--100);
+  color: var(--clr-neutral--900);
+  padding: 2em 2em;
+  border-radius: var(--br);
 }
 
-.blog__heading--incentive {}
+.blog__heading--incentive {
+  font-size: 2rem;
+  padding-bottom: 0.9em;
+  font-weight: 900;
+}
 
-.blog__heading--day {}
+.blog__heading--day {
+  font-size: 1.8rem;
+}
 
-.blog__heading--scale {
+.blog__heading--day span {
+  font-weight: 900;
+}
+
+.scale {
+  width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.scale__text {}
+.scale__text {
+  padding-bottom: 2em;
+  font-size: 1.6rem;
+  color: var(--clr-accent--500);
+}
 
 .scale__emojis {
   display: flex;
