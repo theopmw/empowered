@@ -267,16 +267,31 @@ body.light .dropdown ul {
 .scale__emojis {
   display: flex;
   flex-direction: column;
+
+}
+
+.scale__emoji:not(:last-child) {
+  margin-bottom: 1em;
 }
 
 .scale__emoji {
   display: flex;
+  align-items: center;
+  border: 1px solid var(--clr-accent--500);
+  border-radius: var(--br);
+  padding: 0.2em 2em 0.2em 1.5em;
 }
 
 
-.scale__emoji img {
+.emoji__image--holder {
   width: 4rem;
   height: 4rem;
+  margin-right: 4em;
+}
+
+.scale__emoji--text {
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 /* ----- Footer ----- */
