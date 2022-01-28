@@ -23,13 +23,7 @@
       <div class="logo__container--top">
         Logo
       </div>
-      <!-- Navbar for mobile screens -->
-      <ul class="navbar__components--mobile">
-        <li class="navbar__item"><a href="#">Home</a> </li>
-        <li class="navbar__item"><a href="#">Profile</a> </li>
-        <li class="navbar__item btn btn__login"><a href="#">Login</a></li>
-        <li class="navbar__item btn btn__Register"><a href="#">Register</a></li>
-      </ul>
+
       <!-- Navbar items -->
       <ul class="navbar__components">
         <li class="navbar__item"><a href="#">Home</a> </li>
@@ -41,14 +35,19 @@
             <li class=" btn btn__register"><a href="#">Register</a></li>
           </ul>
         </li>
-
       </ul>
       <!-- Navbar hamburger for mobile screens -->
       <div class="hamburger__container" id="hamburger">
-        <img src="assets/images/icon-hamburger.svg" alt="Hamburger Image" id="humburger">
+        <img src="{{ url_for('static', filename='images/icon-hamburger.svg') }}" alt="Hamburger Image">
       </div>
+      <!-- Navbar for mobile screens -->
+      <ul class="navbar__components--mobile">
+        <li class="navbar__item"><a href="#">Home</a> </li>
+        <li class="navbar__item"><a href="#">Profile</a> </li>
+        <li class="navbar__item btn btn__login"><a href="#">Login</a></li>
+        <li class="navbar__item btn btn__Register"><a href="#">Register</a></li>
+      </ul>
     </nav>
-  </header>
   </header>
   <main class="container">
     {% block content %}
