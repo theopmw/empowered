@@ -15,7 +15,6 @@
 }
 
 
-
 /*------ Global Settings------*/
 *,
 *::before,
@@ -77,7 +76,6 @@ body {
   background-color: var(--clr-primary--100);
 }
 
-
 /* --- Navbar --- */
 .navbar {
   width: 100%;
@@ -115,7 +113,6 @@ body {
 .navbar__item a:hover {
   color: var(--clr-neutral--900);
 }
-
 
 /* Dropdown */
 .dropdown {
@@ -206,7 +203,6 @@ body.light .dropdown ul {
 
 
 
-
 /* ----- Main ----- */
 
 .main {
@@ -282,7 +278,6 @@ body.light .dropdown ul {
   padding: 0.2em 2em 0.2em 1.5em;
 }
 
-
 .emoji__image--holder {
   width: 4rem;
   height: 4rem;
@@ -293,6 +288,24 @@ body.light .dropdown ul {
   font-size: 1.5rem;
   font-weight: 600;
 }
+
+
+.svg-area {
+  background-color: rgb(255, 255, 255) !important;
+  border: 1px solid rgb(226, 226, 226);
+  font-family: Arial, Helvetica, sans-serif;
+  color: #272727 !important;
+}
+
+.heatMapMonths-labels {
+  /* text-anchor: middle; */
+  font-size: 12px;
+}
+
+
+
+
+
 
 /* ----- Footer ----- */
 
@@ -307,11 +320,9 @@ footer {
 
 
 
-
 /* ----- Media ----- */
 
 @media all and (max-width: 62.5em) {
-
 
   .navbar__components {
     display: none;
@@ -322,8 +333,7 @@ footer {
   }
 
 
-
   /* .navbar__components--mobile.open-menu {
-    display: block;
+  display: block;
   } */
 }
