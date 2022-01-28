@@ -1,0 +1,13 @@
+:root {
+  --clr-primary--500: #9adea2;
+  --clr-primary--900: #c2f69b;
+  --clr-neutral--100: #fafafa;
+  --clr-neutral--300: #696969;
+  --clr-neutral-300: #333;
+  --clr-accent--300: #80c0ce;
+  --clr-accent--500: #467292;
+  --ff-primary: sans-serif;
+  --ff-accent: cursive;
+  --br: 2.4em;
+  --br-elements: 0.8em;
+}
