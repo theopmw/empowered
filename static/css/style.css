@@ -117,17 +117,18 @@ body {
 .dropdown {
   border-radius: var(--br);
   background-color: var(--clr-primary--300);
+  cursor: pointer;
+  padding: 1em 2.3em 0.9em 2.3em;
+  position: relative;
+  text-transform: uppercase;
+  color: var(--clr-neutral--300);
+  font-weight: 700;
   box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
   -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
   -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
-  cursor: pointer;
-  font-size: 0.95rem;
-  padding: 2em 2.3em;
-  position: relative;
 }
 
-.dropdown ul {
-  font-size: 0.85rem;
+.nav__options {
   padding: 1em;
   position: absolute;
   top: 107%;
@@ -137,8 +138,14 @@ body {
   z-index: 99;
   border-radius: var(--br);
   background-color: var(--clr-primary--300);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.36);
   display: none;
+}
+
+.nav__options .btn__login {
+  margin-bottom: 1em;
 }
 
 body.light .dropdown ul {
@@ -152,48 +159,6 @@ body.light .dropdown ul {
 .dropdown ul li {
   margin: 0.6em 1em;
 }
-
-
-
-
-
-
-
-
-/* .btn {
-  padding: 0.9em 1.7em;
-  border-radius: var(--br);
-  outline: none;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-  text-transform: uppercase;
-} */
-
-/* .btn:focus {
-  outline: none;
-}
-
-.btn__login {
-}
-
-.btn__register {
-  background-color: var(--clr-primary--500);
-}
-
-.btn__login a {
-  color: var(--clr-neutral--300);
-}
-
-.btn__register a {
-  color: white;
-}
-
-.btn__login:hover {
-  background-color: white;
-}
-
-.navbar__social {
-  display: none;
-} */
 
 .hamburger__container {
   display: none;
