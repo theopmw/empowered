@@ -4,7 +4,8 @@
   --clr-primary--500: #80db8b;
   --clr-neutral--100: #fafafa;
   --clr-neutral--300: #696969;
-  --clr-neutral-900: #333;
+  --clr-neutral--900: #333;
+  --clr-accent--100: #b3ebf7b6;
   --clr-accent--300: #80c0ce;
   --clr-accent--500: #467292;
   --ff-primary: sans-serif;
@@ -12,7 +13,6 @@
   --br: 0.4em;
   --br-elements: 0.8em;
 }
-
 
 
 /*------ Global Settings------*/
@@ -76,7 +76,6 @@ body {
   background-color: var(--clr-primary--100);
 }
 
-
 /* --- Navbar --- */
 .navbar {
   width: 100%;
@@ -114,7 +113,6 @@ body {
 .navbar__item a:hover {
   color: var(--clr-neutral--900);
 }
-
 
 /* Dropdown */
 .dropdown {
@@ -204,6 +202,94 @@ body.light .dropdown ul {
 
 
 
+
+/* ----- Main ----- */
+
+.main {
+  width: 100%;
+}
+
+.content__container {
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog {
+  padding: 2.5em 0;
+}
+
+.blog__heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--clr-accent--100);
+  color: var(--clr-neutral--900);
+  padding: 2em 2em;
+  border-radius: var(--br);
+}
+
+.blog__heading--incentive {
+  font-size: 2rem;
+  padding-bottom: 0.9em;
+  font-weight: 900;
+}
+
+.blog__heading--day {
+  font-size: 1.8rem;
+}
+
+.blog__heading--day span {
+  font-weight: 900;
+}
+
+.scale {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.scale__text {
+  padding-bottom: 2em;
+  font-size: 1.6rem;
+  color: var(--clr-accent--500);
+}
+
+.scale__emojis {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.scale__emoji:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.scale__emoji {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--clr-accent--500);
+  border-radius: var(--br);
+  padding: 0.2em 2em 0.2em 1.5em;
+}
+
+.emoji__image--holder {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 4em;
+}
+
+.scale__emoji--text {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+
 .svg-area {
   background-color: rgb(255, 255, 255) !important;
   border: 1px solid rgb(226, 226, 226);
@@ -215,9 +301,6 @@ body.light .dropdown ul {
   /* text-anchor: middle; */
   font-size: 12px;
 }
-
-
-
 
 
 
@@ -237,11 +320,9 @@ footer {
 
 
 
-
 /* ----- Media ----- */
 
 @media all and (max-width: 62.5em) {
-
 
   .navbar__components {
     display: none;
@@ -252,8 +333,7 @@ footer {
   }
 
 
-
   /* .navbar__components--mobile.open-menu {
-    display: block;
+  display: block;
   } */
 }
