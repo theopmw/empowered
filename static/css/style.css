@@ -402,7 +402,18 @@ footer {
   background-color: var(--clr-primary--500);
 }
 
+.team__collaborators {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 1rem;
+}
 
+.photo {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
 
 
 
