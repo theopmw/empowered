@@ -9,7 +9,7 @@
 </section>
 <section class="scale">
   <h4 class="scale__text">Please, click on the emoji to sum up your today's feeling!</h4>
-  <ul class="scale__emojis">
+  <ul class="scale__emojis" id="emojis-container">
     <li class="scale__emoji">
       <div class="emoji__image--holder">
         <img src="{{ url_for('static', filename='images/emojis/angry.png') }}" alt="angry emoji">
@@ -54,7 +54,7 @@
   </ul>
 
 
-  <section class="blog__container">
+  <section class="blog__container" id="blog-container">
     <h4 class="blog__container--title">Leave some notes to explain why you feel so!</h4>
     <form method="POST" class="blog__form" action="">
       <p class="blog__input">

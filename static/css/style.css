@@ -257,6 +257,7 @@ body.light .dropdown ul {
   align-items: center;
   text-align: center;
   padding: 2em 0.5em;
+  margin-bottom: 3em;
 }
 
 .scale__text,
@@ -301,9 +302,9 @@ body.light .dropdown ul {
 
 /* Profile Blog Styling */
 .blog__container {
-  margin: 3em 0;
+  margin: 3em 0 2em 0;
   width: 100%;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
   padding: 2em 0.5em;
@@ -336,7 +337,7 @@ body.light .dropdown ul {
   resize: none;
   outline: none;
   width: inherit;
-  min-height: 10rem;
+  min-height: 15rem;
   border: 1px solid var(--clr-accent--900);
   border-radius: var(--br);
   padding: 1em;
@@ -368,7 +369,7 @@ body.light .dropdown ul {
 
 /* Profile link to Calendar Styling */
 .data__link {
-  margin-bottom: 8em;
+  margin: 8em 0;
 }
 
 .btn__calendar--link {
