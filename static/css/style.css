@@ -2,6 +2,7 @@
   --clr-primary--100: #9adea2;
   --clr-primary--300: #c2f69b;
   --clr-primary--500: #80db8b;
+  --clr-primary--900: #4db158;
   --clr-neutral--100: #fafafa;
   --clr-neutral--300: #696969;
   --clr-neutral--900: #333;
@@ -259,7 +260,8 @@ body.light .dropdown ul {
 }
 
 .scale__text,
-.blog__container--title {
+.blog__container--title,
+.data__link--title {
   padding-bottom: 2em;
   font-size: 1.8rem;
   color: var(--clr-accent--900);
@@ -297,6 +299,7 @@ body.light .dropdown ul {
   font-weight: 600;
 }
 
+/* Profile Blog Styling */
 .blog__container {
   margin: 3em 0;
   width: 100%;
@@ -344,23 +347,41 @@ body.light .dropdown ul {
   border-radius: var(--br);
   padding: 1.2em 3.5em;
   text-transform: uppercase;
-  font-size: 0.9rem;
-  font-weight: 700;
+  font-size: 1rem;
+  font-weight: 900;
   border: none;
   box-shadow: 0px 0px 17px -4px rgba(0, 0, 0, 0.424);
   -webkit-box-shadow: 0px 0px 17px -4px rgba(0, 0, 0, 0.424);
   -moz-box-shadow: 0px 0px 17px -4px rgba(0, 0, 0, 0.424);
+  cursor: pointer;
 }
 
 .blog__btn--submit {
   background-color: var(--clr-accent--300);
-  color: var(--clr-neutral--100);
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  color: var(--clr-neutral--900);
 }
 
 .blog__btn--submit:hover {
   background-color: var(--clr-accent--500);
+  color: var(--clr-neutral--100);
 }
+
+/* Profile link to Calendar Styling */
+.data__link {
+  margin-bottom: 8em;
+}
+
+.btn__calendar--link {
+  background-color: var(--clr-primary--100);
+  color: var(--clr-neutral--900);
+}
+
+.btn__calendar--link:hover {
+  background-color: var(--clr-primary--900);
+  color: var(--clr-neutral--900);
+}
+
+
 
 
 .svg-area {
