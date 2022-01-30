@@ -25,11 +25,6 @@ def home():
     return render_template("home.html", users=users)
 
 
-@app.route("/profile")
-def profile():
-    return render_template("profile.html")
-
-
 @app.route("/register", methods=["GET", "POST"])
 def register():
     if request.method == "POST":
