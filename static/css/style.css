@@ -228,21 +228,22 @@ body.light .dropdown ul {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: var(--clr-accent--100);
-  color: var(--clr-neutral--900);
-  padding: 2em 2em;
-  border-radius: var(--br);
-}
 
-.blog__heading--incentive {
-  font-size: 2rem;
-  padding-bottom: 0.9em;
-  font-weight: 900;
+  color: var(--clr-neutral--900);
+  padding: 2em 2em 0 2em;
+  border-radius: var(--br);
 }
 
 .blog__heading--day {
   font-size: 1.8rem;
+  text-align: left;
+  padding-bottom: 1.2em;
+}
+
+.blog__heading--incentive {
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
 }
 
 .blog__heading--day span {
@@ -269,9 +270,23 @@ body.light .dropdown ul {
   font-weight: 900;
 }
 
+.profile__form {
+  margin: 3em 0 2em 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 0.5em;
+}
+
 .scale__emojis {
   display: flex;
   flex-direction: column;
+  /* width: 5rem; */
+  align-items: center;
+  box-shadow: 0px 0px 17px -4px rgba(0, 0, 0, 0.424);
+  -webkit-box-shadow: 0px 0px 17px -4px rgba(0, 0, 0, 0.424);
+  -moz-box-shadow: 0px 0px 17px -4px rgba(0, 0, 0, 0.424);
 }
 
 .scale__emoji:not(:last-child) {
@@ -281,12 +296,8 @@ body.light .dropdown ul {
 .scale__emoji {
   display: flex;
   align-items: center;
-  border: 1px solid var(--clr-accent--500);
-  border-radius: var(--br);
   padding: 0.2em 2em 0.2em 1.5em;
-  box-shadow: 0px 0px 17px -4px rgba(0, 0, 0, 0.424);
-  -webkit-box-shadow: 0px 0px 17px -4px rgba(0, 0, 0, 0.424);
-  -moz-box-shadow: 0px 0px 17px -4px rgba(0, 0, 0, 0.424);
+  width: 22rem;
 }
 
 .emoji__image--holder {
@@ -298,6 +309,12 @@ body.light .dropdown ul {
 .scale__emoji--text {
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+select {
+  font-size: 1.5rem;
+  padding: 1em;
+  background-color: var(--clr-accent--100);
 }
 
 /* Profile Blog Styling */
@@ -385,7 +402,21 @@ body.light .dropdown ul {
 
 /* ----- Calendar Page ----- */
 
+.calendar__title--click {
+  padding-bottom: 1em;
+  font-size: 1.6rem;
+}
 
+.calendar__emoji--click {
+  max-width: 3rem;
+  padding-bottom: 1.2em;
+
+}
+
+.calendar__text--click {
+  font-size: 1.4rem;
+  padding-bottom: 1.2em;
+}
 
 
 
@@ -403,10 +434,10 @@ footer {
 }
 
 .team__collaborators {
-display: flex;
-justify-content: space-around;
-align-items: center;
-margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
 
 }
 
