@@ -26,8 +26,6 @@ mongo = PyMongo(app)
 def home():
     users = mongo.db.users.find()
     return render_template("home.html", users=users)
-<<<<<<< HEAD
-=======
 
 
 @app.route("/register", methods=["GET", "POST"])
@@ -110,7 +108,6 @@ def profile():
 def calendar():
     emoji_tracker = list(mongo.db.tracker.find({"user": session["user"]}))
     return render_template("calendar.html", emoji_tracker=emoji_tracker)
->>>>>>> upstream/main
 
 
 if __name__ == "__main__":
